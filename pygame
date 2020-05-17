@@ -5,7 +5,7 @@ from pygame  import  mixer
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
 # back ground
-background = pygame.image.load('PycharmProjects/hello/background.jpg')
+background = pygame.image.load('PycharmProjects/hello/background.jpg') # get icons  in (freepik and flat icons) web site 
 # background sound
 mixer.music.load('PycharmProjects/hello/background.wav')
 mixer.music.play(-1)
